@@ -4,6 +4,7 @@ import { MdLightMode, MdDarkMode } from 'react-icons/md';
 
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
+import Navbar from './Navbar';
 
 export default function DarkModeSwitch() {
   const { theme, setTheme, systemTheme } = useTheme();
@@ -17,6 +18,7 @@ export default function DarkModeSwitch() {
           <MdLightMode
             onClick={() => setTheme('light')}
             className='text-xl cursor-pointer hover:text-amber-500'
+  
           />
         ) : (
           <MdDarkMode

@@ -9,7 +9,7 @@ export default function header() {
     <div className='head max-w-6xl mx-auto'>
     <div className='flex gap-4  '>
       <Menuitem title="HOME" address="/" Icon={AiFillHome}/>
-      <Menuitem title="ABOUT" address="/about" Icon={ BsFillInfoCircleFill }/>
+      <Menuitem title="ABOUT" address="/About" Icon={ BsFillInfoCircleFill }/>
     </div>
     <div className='flex gap-2 items-center'>
                 <div>
